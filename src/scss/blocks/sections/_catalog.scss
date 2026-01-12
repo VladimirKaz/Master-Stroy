@@ -1,0 +1,61 @@
+@use '../../helpers/' as *;
+
+.catalog {
+  padding: 12rem 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  &__title {
+    margin-bottom: 5.6rem;
+  }
+
+  &__list {
+    margin-bottom: 7.2rem;
+  }
+
+  &__btn-all-catalog {
+
+  }
+
+// breakpoints
+  @include mobile {
+    padding: 2rem 0;
+
+    &__title {
+      margin-bottom: 2rem;
+    }
+  
+    &__list {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @include tablet {
+    & {
+      padding: 2rem 0;
+    }
+  
+    &__title {
+      margin-bottom: 2rem;
+    }
+  
+    &__list {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @include laptop {
+    padding: 4rem 0;
+  }
+
+  @include laptop-L {
+    padding: 8rem 0;
+  }
+}

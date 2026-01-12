@@ -1,0 +1,59 @@
+@use '../helpers/' as *;
+
+.btn-main, 
+a.btn-main {
+  padding: 2rem 6rem;
+
+  display: block;
+  
+  border-radius: 30px;
+  background: #e05100;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #fff;
+
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.5;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  @include mobile {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+}
+
+.btn-callback {
+  padding: 1.5rem 5.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 3rem;
+  background: #fff;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #000;
+
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.5;
+  }
+  
+  @media (max-width: 1024px) {
+    padding: 1.5rem 3rem;
+    font-size: 1.3rem;
+  }
+
+
+}
+
+.mobile-nav {
+  display: none;
+}

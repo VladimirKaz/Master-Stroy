@@ -1,0 +1,71 @@
+@use '../helpers/' as *;
+
+.catalog-main {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6.2rem 2.5rem;
+
+  &__card {
+    padding: 5rem 3.2rem 2.5rem;
+
+    border-radius: 30px;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4.4rem;
+
+
+    transition: all 0.2s ease-in;
+    
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  
+  &__img-box {
+
+  }
+
+  // breakpoints
+  @include mobile {
+    & {
+      flex-direction: column;
+      gap: 2rem;
+    }
+      
+    &__card {
+      width: 100%;
+    }
+      
+    &__img-box {}
+  }
+
+  @include tablet {
+    & {
+      flex-direction: column;
+      gap: 2rem;
+    }
+      
+    &__card {
+      width: 100%;
+    }
+      
+    &__img-box {}
+  }
+
+  @include laptop {
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  @include laptop-L {
+    gap: 0.5rem;
+    justify-content: center;
+  }
+}

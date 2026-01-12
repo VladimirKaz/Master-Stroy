@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "image": "img/components/favorites-list/item-1.png",
+    "alt": "Картинка избранного товара",
+    "title": "Шестигранник 250x220x70",
+
+    "specifications": {
+      "size": "Размер: 250x220x70мм",
+      "perSquareMeter": "Количество: 21 шт/кв.м",
+      "availableColorsCount": "Цвета в наличии: 8"
+    },
+
+    "variants": 
+    [
+      {
+        "color": "Серый",
+        "price": "440 руб/кв.м"
+      },
+      {
+        "color": "Красный",
+        "price": "530 руб кв/м"
+      },
+      {
+        "color": "Коричневый",
+        "price": "590 руб кв/м"
+      },
+      {
+        "color": "Желтый",
+        "price": "по запросу"
+      },
+      {
+        "color": "Другие цвета",
+        "price": "510 руб кв/м"
+      }
+    ],
+
+    "btn": 
+    {
+      "svg": "/img/components/favorites-list/btn.svg",
+      "alt": "Кнопка карточки добавить корзину"
+    }
+  },
+  {
+    "id": 2,
+    "image": "img/components/favorites-list/item-2.png",
+    "alt": "Картинка избранного товара",
+    "title": "Брусчатка 200x100x50",
+
+    "specifications": {
+      "size": "Размер: 200x100x50мм",
+      "perSquareMeter": "Количество: 50 пара шт/кв.м",
+      "availableColorsCount": "Цвета в наличии: 8"
+    },
+
+    "variants": 
+    [
+      {
+        "color": "Серый",
+        "price": "440 руб/кв.м"
+      },
+      {
+        "color": "Красный",
+        "price": "500 руб кв/м"
+      },
+      {
+        "color": "Коричневый",
+        "price": "550 руб кв/м"
+      },
+      {
+        "color": "Желтый",
+        "price": "700 руб кв/м"
+      },
+      {
+        "color": "Другие цвета",
+        "price": "по запросу"
+      }
+    ],
+
+    "btn": 
+    {
+      "svg": "/img/components/favorites-list/btn.svg",
+      "alt": "Кнопка карточки добавить корзину"
+    }
+  },
+  {
+    "id": 3,
+    "image": "img/components/favorites-list/item-3.png",
+    "alt": "Картинка избранного товара",
+    "title": "Плитка квадрат 330x330x60",
+
+    "specifications": {
+      "size": "Размер: 330x330x60мм",
+      "perSquareMeter": "Количество: 9 шт/кв.м",
+      "availableColorsCount": "Цвета в наличии: 8"
+    },
+
+    "variants": 
+    [
+      {
+        "color": "Серый",
+        "price": "440 руб/кв.м"
+      },
+      {
+        "color": "Красный",
+        "price": "500 руб кв/м"
+      },
+      {
+        "color": "Коричневый",
+        "price": "550 руб кв/м"
+      },
+      {
+        "color": "Желтый",
+        "price": "700 руб кв/м"
+      },
+      {
+        "color": "Другие цвета",
+        "price": "по запросу"
+      }
+    ],
+
+    "btn": 
+    {
+      "svg": "/img/components/favorites-list/btn.svg",
+      "alt": "Кнопка карточки добавить корзину"
+    }
+  },
+  {
+    "id": 4,
+    "image": "img/components/favorites-list/item-4.png",
+    "alt": "Картинка избранного товара",
+    "title": "Катушка 250x160x60",
+
+    "specifications": {
+      "size": "Размер: 250x160x60мм",
+      "perSquareMeter": "Количество: 30 шт/кв.м",
+      "availableColorsCount": "Цвета в наличии: 8"
+    },
+
+    "variants": 
+    [
+      {
+        "color": "Серый",
+        "price": "440 руб/кв.м"
+      },
+      {
+        "color": "Красный",
+        "price": "500 руб кв/м"
+      },
+      {
+        "color": "Коричневый",
+        "price": "550 руб кв/м"
+      },
+      {
+        "color": "Желтый",
+        "price": "700 руб кв/м"
+      },
+      {
+        "color": "Другие цвета",
+        "price": "по запросу"
+      }
+    ],
+
+    "btn": 
+    {
+      "svg": "/img/components/favorites-list/btn.svg",
+      "alt": "Кнопка карточки добавить корзину"
+    }
+  },
+  {
+    "id": 5,
+    "image": "img/components/favorites-list/item-5.png",
+    "alt": "Картинка избранного товара",
+    "title": "Кирпичик 250x125x60",
+
+    "specifications": {
+      "size": "Размер: 250x125x60мм",
+      "perSquareMeter": "Количество: 32 шт/кв.м",
+      "availableColorsCount": "Цвета в наличии: 8"
+    },
+
+    "variants": 
+    [
+      {
+        "color": "Серый",
+        "price": "440 руб/кв.м"
+      },
+      {
+        "color": "Красный",
+        "price": "500 руб кв/м"
+      },
+      {
+        "color": "Коричневый",
+        "price": "550 руб кв/м"
+      },
+      {
+        "color": "Желтый",
+        "price": "700 руб кв/м"
+      },
+      {
+        "color": "Другие цвета",
+        "price": "по запросу"
+      }
+    ],
+
+    "btn": 
+    {
+      "svg": "/img/components/favorites-list/btn.svg",
+      "alt": "Кнопка карточки добавить корзину"
+    }
+  },
+  {
+    "id": 6,
+    "image": "img/components/favorites-list/item-6.png",
+    "alt": "Картинка избранного товара",
+    "title": "Волна 250x125x60",
+
+    "specifications": {
+      "size": "Размер: 250x125x60мм",
+      "perSquareMeter": "Количество: 32/40 шт/кв.м",
+      "availableColorsCount": "Цвета в наличии: 8"
+    },
+
+    "variants": 
+    [
+      {
+        "color": "Серый",
+        "price": "440 руб/кв.м"
+      },
+      {
+        "color": "Красный",
+        "price": "500 руб кв/м"
+      },
+      {
+        "color": "Коричневый",
+        "price": "550 руб кв/м"
+      },
+      {
+        "color": "Желтый",
+        "price": "700 руб кв/м"
+      },
+      {
+        "color": "Другие цвета",
+        "price": "по запросу"
+      }
+    ],
+
+    "btn": 
+    {
+      "svg": "/img/components/favorites-list/btn.svg",
+      "alt": "Кнопка карточки добавить корзину"
+    }
+  }
+]

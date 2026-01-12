@@ -1,0 +1,82 @@
+@use '../../helpers/' as *;
+
+.benefits {
+  padding: 12rem 0;
+  background-color: #404040;
+
+  &__title {
+    margin-bottom: 8rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem 2.9rem;
+  }
+  
+  &__list-card {
+    max-width: 30.3rem;
+    padding: 1.4rem 2.8rem 3.8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    background-color: #fff;
+    border-radius: 3rem;
+  }
+
+  &__card-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  // breakpoint
+  @include tablet {
+    padding: 4rem 0;
+
+    &__title {
+      margin-bottom: 4rem;
+    }
+
+    &__list {
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    &__list-card {
+      padding: 1.4rem;
+      gap: 1rem;
+    }
+
+    &__card-description {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+
+  @include mobile {
+    padding: 4rem 0;
+
+    &__title {
+        margin-bottom: 4rem;
+      }
+    
+    &__list {
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+    
+    &__list-card {
+      max-width: unset;
+    }
+  }
+
+  @include laptop-L {
+    padding: 8rem 0;
+  }
+}

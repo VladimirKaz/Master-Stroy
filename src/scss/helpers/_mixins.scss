@@ -1,0 +1,25 @@
+@use '../helpers/variables' as *;
+
+@mixin mobile{
+  @media (max-width: $bp-mobile) {
+    @content;
+  }
+}
+
+@mixin tablet{
+  @media (max-width: $bp-tablet) {
+    @content;
+  }
+}
+
+@mixin laptop{
+  @media (max-width: $bp-laptop) {
+    @content;
+  }
+}
+
+@mixin laptop-L {
+  @media (max-width: $bp-laptop-L) {
+    @content
+  }
+}

@@ -1,0 +1,49 @@
+@use '../helpers/' as *;
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 49px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  &__item a {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #000;
+    transition: all .3s ease-in;
+
+    &:hover {
+      color: #7e7c7c;
+    }
+  } 
+
+  @media (max-width:1024px) {
+    &__list {
+      gap: 3rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem 1rem;
+
+      & li {
+        text-align: center;
+      }
+    }
+  }
+
+  @media (max-width: 479px) {
+    display: none;
+  }
+}
+

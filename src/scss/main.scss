@@ -1,0 +1,29 @@
+// base
+@use './base/reset';
+@use './base/base';
+@use './base/typograhy';
+
+// helpers
+@use './helpers/index' as *;
+
+// comoponents
+@use './components/buttons';
+@use './components/catalog-main';
+@use './components/favorites-list';
+@use './components/favorite-card';
+
+// layout
+@use './layout/container';
+@use './layout/header';
+@use './layout/footer';
+@use './layout/nav';
+
+// blocks
+  // sections
+  @use './blocks/sections/hero';
+  @use './blocks/sections/catalog';
+  @use './blocks/sections/about';
+  @use './blocks/sections/top-picks';
+  @use './blocks/sections/about-prodaction';
+  @use './blocks/sections/portfolio';
+  @use './blocks/sections/benefits';

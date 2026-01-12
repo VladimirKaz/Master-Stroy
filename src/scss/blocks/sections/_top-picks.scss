@@ -1,0 +1,59 @@
+@use '../../helpers/' as *;
+
+.top-picks {
+
+  padding: 12rem 0;
+  display: flex;
+  
+  &__content {
+
+  }
+  
+  &__title {
+    margin-bottom: 8rem;
+  }
+  
+  &__list {
+
+  }
+
+  // briakpoints
+  @include mobile {
+    & {
+      padding: 4rem 0;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @include tablet {
+    & {
+      padding: 4rem 0;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @include laptop {
+    & {
+      padding: 4rem 0;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @include laptop-L {
+    padding: 8rem 0;
+  }
+
+  &__title {
+    margin-bottom: 6rem;
+  }
+
+}

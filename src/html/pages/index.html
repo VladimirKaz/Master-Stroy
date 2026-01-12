@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Мастер строй</title>
+</head>
+<body>
+  <!-- Header -->
+    @@include('../layout/_header.html')
+  <main class="main">
+    <!-- sections -->
+    @@include('../blocks/sections/_hero.html')
+    @@include('../blocks/sections/_catalog.html')
+    @@include('../blocks/sections/_about.html')
+    @@include('../blocks/sections/_top-picks.html')
+    @@include('../blocks/sections/_about-prodaction.html')
+    @@include('../blocks/sections/_portfolio.html')
+    @@include('../blocks/sections/_benefits.html')
+
+  </main>
+
+  <!-- Footer -->
+    @@include('../layout/_footer.html')
+
+  <!-- scripts -->
+  <script src="/js/components/catalog-main.js"></script>
+  <script src="/js/components/favorite-card.js"></script>
+  <script src="/js/blocks/portfolio.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

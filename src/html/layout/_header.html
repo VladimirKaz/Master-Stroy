@@ -1,0 +1,76 @@
+<header class="header">
+<!-- top -->
+  <div class="header__top-row">
+    <div class="container">
+      <div class="header__top-content">
+        <!-- address -->
+        <address class="header__addres">
+          <div class="header__icon-box">
+            <img src="/img/icons/local.svg" alt="Наше расположение">
+          </div>
+      
+          <p class="text-header">
+            Волоколамский район,<br>
+            пос. Чисмена, ул. Центральная, 1
+          </p>
+        </address>
+        <!-- time work -->
+        <div class="header__time-work" itemscope itemtype="https://schema.org/OpeningHourtext-header">
+          <div class="header__icon-box">
+            <img src="/img/icons/clock_icon.svg" alt="Часы работы">
+          </div>
+      
+          <p class="text-header" itemprop="openingHours" content="Mo-Su 08:00-20:00">
+            Режим работы:<br>
+            <time itemprop="opens" content="08:00">с 8:00</time> до
+            <time itemprop="closes" content="20:00">20:00</time>
+          </p>
+        </div>
+        <!-- ours phones -->
+        <div class="header__ours-phones">
+          <div class="header__icon-box">
+            <img src="/img/icons/phone-icon.svg" alt="Наши телефоны">
+          </div>
+      
+          <div class="header__ours-grid-numbers">
+            <p class="text-header"><a href="tel:+79261059414">+7 (926) 105-94-14</a></p>
+            <p class="text-header"><a href="tel:+74999949099">+7 (499) 994-90-99</a></p>
+            <p class="text-header"><a href="tel:+79104706797">+7 (910) 470-67-97</a></p>
+          </div>
+        </div>
+        <!-- callback btn -->
+        <div class="header__callback">
+          <button class="btn-callback" type="button" data-callback="callback">
+            Закзать звонок
+          </button>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+<!-- bottom -->
+  <div class="header__bottom-row">
+    <div class="container">
+      <div class="header__bottom-content">
+      <!-- Logo -->
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="/img/layout/header/logo-header.png" alt="Мастер строй">
+          </a>
+        </div>
+      <!-- Nav -->
+        <div class="header__nav">
+          @@include('../layout/_nav.html')
+        </div>
+
+        <button class="mobile-nav" 
+        data-mobile-nav="open" 
+        type="button"
+        aria-label="кнопка открытия мобильной навигации"
+        >
+        XXX
+        </button>
+      </div>
+    </div>
+  </div>
+</header>

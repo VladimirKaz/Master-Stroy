@@ -1,0 +1,180 @@
+@use '../helpers/' as *;
+
+.page-title {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+
+  @include tablet {
+    font-size: 3rem;
+  }
+
+  @include mobile {
+    font-size: 2rem;
+  }
+}
+
+.subtitle {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+
+  @include tablet {
+    font-size: 1.2rem;
+  }
+
+  @include mobile {
+    font-size: 1rem;
+  }
+}
+
+.section-title {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #000;
+
+  &--white {
+    color: #fff;
+  }
+
+  @include mobile {
+    font-size: 2rem;
+  }
+}
+
+.section-subtitle {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+
+  @include mobile {
+    
+  }
+}
+
+.description-text {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #fff;
+
+  &--black {
+    color: #000;
+    text-align: center;
+  }
+}
+
+// catalog
+.catalog-section-title {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #000;
+}
+
+// favorite-card
+.favorite-card-title {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.favorite-card-summary {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.favorite-card-variant {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.49;
+  color: #fff;
+}
+
+.favorite-card-price {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.49;
+  color: #fff;
+}
+
+.text-about-prodaction {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.card-title {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.card-description {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.text-header, 
+.text-header a {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #fff;
+
+  @include laptop {
+    font-size: 1rem;
+  }
+}
+
+
+// footer
+.footer-title {
+  font-family: $secont-font;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #e05100;
+
+  @include tablet {
+    font-size: 1.2rem;
+  }
+}
+
+.footer-item {
+  font-family: $secont-font;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #000;
+
+  @include tablet {
+    font-size: 1rem;
+  }
+}
+
+.copyright {
+  font-family: $secont-font;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #000;
+}

@@ -1,0 +1,112 @@
+@use '../../helpers/' as *;
+
+.about-production {
+  background-color: #404040;
+  padding: 12rem 0;
+
+  &__title {
+    margin-bottom: 8rem;
+  }
+  
+  &__content {
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  &__description {
+    
+  }
+
+  &__logo {
+    margin-bottom: 5.3rem;
+
+    max-width: 23.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    background-color: #fff;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 3.3rem;
+
+    max-width: 32.8rem;
+  }
+
+  &__item {
+    display: flex;
+    gap: 3rem;
+  }
+
+  &__video-box {
+    
+  }
+
+  // breakpoints
+  @include mobile {
+    & {
+      padding: 4rem 0;
+    }
+
+    &__content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    &__logo {
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+
+    &__list {
+      gap: 1rem;
+    }
+
+    &__item {
+      align-items: center;
+      gap: 1rem;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @include tablet {
+    & {
+      padding: 4rem 0;
+    }
+
+    &__content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    &__logo {
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+
+    &__list {
+      gap: 1rem;
+      margin: 0 auto;
+    }
+
+    &__item {
+      align-items: center;
+      gap: 1rem;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @include laptop-L {
+    padding: 8rem 0;
+  }
+}

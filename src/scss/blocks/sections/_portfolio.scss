@@ -1,0 +1,70 @@
+@use '../../helpers/' as *;
+
+.portfolio {
+  padding: 12rem 0;
+
+  &__title {
+    margin-bottom: 7.8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem 3rem;
+  }
+
+  &__card {}
+  
+  &__card-img {
+    border-radius: 30px;
+  }
+
+  // breakpoint
+  @include mobile {
+    padding: 4rem 0;
+
+    &__title {
+      margin-bottom: 3rem;
+      gap: 2rem;
+    }
+  
+    &__list {
+      gap: 2rem;
+    }
+  
+    &__card {
+
+    }
+  
+    &__card-img {
+      border-radius: 30px;
+  
+    }
+  }
+
+  @include tablet {
+    padding: 4rem 0;
+
+    &__title {
+      margin-bottom: 3rem;
+      gap: 2rem;
+    }
+
+    &__list {
+      gap: 2rem;
+      justify-content: center;
+    }
+
+
+  }
+
+  @include laptop-L {
+    padding: 8rem 0;
+  }
+}

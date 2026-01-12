@@ -1,0 +1,125 @@
+@use '../helpers/' as *;
+
+.favorite-card {
+  display: flex;
+
+  &__media {
+    padding: 2rem 2.5rem;
+    width: 70%;
+  }
+  
+  &__media-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.7rem;
+  }
+  
+  &__description {}
+  
+  &__title {
+    margin-bottom: 1.2rem;
+  }
+  
+  &__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    margin-bottom: 1rem;
+  }
+  
+  &__badges-list {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  &__badge {
+    width: 14px;
+    height: 16px;
+
+    &--color1 {
+      background: #737373;
+    }
+    
+    &--color2 {
+      background: #9c0909;
+    }
+    
+    &--color3 {
+      background: #d48d37;
+    }
+    
+    &--color4 {
+      background: #964b00;
+    }
+    
+    &--color5 {
+      background: #dc143c;
+    }
+    
+    &--color6 {
+      background: #49423d;
+    }
+    
+    &--color7 {
+      background: #d77d31;
+    }
+
+    &--color8 {
+      background: #000;
+    }
+
+  }
+  // action
+  &__action {
+    position: relative;
+    padding: 2rem 0 0 2.3rem;
+    
+    background-color: #404040;
+
+    width: 30%;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+  }
+  
+  &__variants {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  &__variant-brown {}
+  
+  &__variant-red {}
+  
+  &__variant-yellow {}
+  
+  &__variant-other {}
+
+
+  &__add-tobuy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    transition: all 0.2s ease-in;
+    
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  // breakpoint
+  @include mobile {
+    &__action {
+      padding: 0.5rem;
+    }
+
+    &__variants {
+      gap: 1rem;
+    }
+  }
+}
+
