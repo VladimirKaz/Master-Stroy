@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   async function favoriteCardData() {
     try {
-      const response = await fetch('/data/products/favorite-card.json');
+      const response = await fetch('../data/products/favorite-card.json');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

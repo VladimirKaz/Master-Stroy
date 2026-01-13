@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function loadCatalogData() {
     try {
-      const response = await fetch('/data/products/catalog-main.json');
+      const response = await fetch('../data/products/catalog-main.json');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
