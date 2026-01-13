@@ -28,8 +28,6 @@
     align-items: center;
     gap: 23px;
   }
-  
-  &__addres-logo {}
 
   &__time-work {
     padding: 0 2rem;
@@ -78,9 +76,12 @@
     align-items: center;
     gap: 6.5rem;
   }
-  
-  &__logo {}
-  &__nav {}
+
+  @include laptop-L {
+    &__bottom-content {
+      justify-content: center;
+    }
+  }
 
   @include laptop {
     &__addres {
@@ -149,6 +150,10 @@
   
     &__callback {
       margin: 0 auto;
+    }
+
+    &__bottom-content {
+      justify-content: space-between;
     }
   }
  

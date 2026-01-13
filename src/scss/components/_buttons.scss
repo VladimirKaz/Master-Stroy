@@ -54,6 +54,11 @@ a.btn-main {
 
 }
 
-.mobile-nav {
+.btn-mobile-nav {
   display: none;
+
+  @include mobile {
+    display: block;
+    width: 32px;
+  }
 }

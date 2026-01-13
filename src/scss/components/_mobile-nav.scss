@@ -1,0 +1,61 @@
+@use '../helpers/' as *;
+
+.mobile-nav {
+  opacity: 0;
+  pointer-events: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  transition: all 0.2s ease-in;
+  
+
+  &--open {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+  }
+  
+  &__content {
+    z-index: 1001;
+    position: relative;
+
+    padding: 3rem;
+    max-width: 40.5rem;
+    border-radius: 3rem;
+
+    background-color: #fff;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 28rem;
+  }
+}

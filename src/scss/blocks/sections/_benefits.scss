@@ -34,6 +34,16 @@
   }
 
   // breakpoint
+  @include laptop-L {
+    padding: 8rem 0;
+  }
+
+  @include laptop {
+    &__list {
+      justify-content: center;
+    }
+  }
+
   @include tablet {
     padding: 4rem 0;
 
@@ -76,7 +86,5 @@
     }
   }
 
-  @include laptop-L {
-    padding: 8rem 0;
-  }
+  
 }

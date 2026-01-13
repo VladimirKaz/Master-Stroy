@@ -24,25 +24,38 @@
     }
   } 
 
-  @media (max-width:1024px) {
-    &__list {
-      gap: 3rem;
-    }
-  }
+  @include laptop-L {
 
-  @media (max-width: 768px) {
+
     &__list {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1rem 1rem;
+      justify-items: center;
+    }
+  }
 
+  @include laptop {
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem 1rem;
+    }
+  }
+
+  @include tablet {
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem 1rem;
+  
       & li {
         text-align: center;
       }
     }
   }
 
-  @media (max-width: 479px) {
+  @include mobile {
     display: none;
   }
 }
