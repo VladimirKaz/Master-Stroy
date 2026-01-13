@@ -1,0 +1,59 @@
+[
+  {
+    "id" : 1,
+    "image": "/img/components/catalog-main/item-1.png",
+    "alt": "Прессованная плитка",
+    "category": "Прессованная плитка",
+    "title": "Прессованная плитка"
+  },
+  {
+    "id" : 2,
+    "image": "/img/components/catalog-main/item-2.png",
+    "alt": "Вибролитая плитка",
+    "category": "Вибролитая плитка",
+    "title": "Вибролитая плитка"
+  },
+  {
+    "id" : 3,
+    "image": "/img/components/catalog-main/item-3.png",
+    "alt": "Вибролитая плитка",
+    "category": "Вибролитая плитка",
+    "title": "Вибролитая плитка"
+  },
+  {
+    "id" : 4,
+    "image": "/img/components/catalog-main/item-4.png",
+    "alt": "Вибролитая плитка",
+    "category": "Вибролитая плитка",
+    "title": "Вибролитая плитка"
+  },
+  {
+    "id" : 5,
+    "image": "/img/components/catalog-main/item-5.png",
+    "alt": "Вибролитая плитка",
+    "category": "Вибролитая плитка",
+    "title": "Вибролитая плитка"
+  },
+  {
+    "id" : 6,
+    "image": "/img/components/catalog-main/item-6.png",
+    "alt": "Вибролитая плитка",
+    "category": "Вибролитая плитка",
+    "title": "Вибролитая плитка"
+  },
+  {
+    "id" : 7,
+    "image": "/img/components/catalog-main/item-7.png",
+    "alt": "Водостоки тротуарные",
+    "category": "Водостоки тротуарные",
+    "title": "Водостоки тротуарные"
+  },
+  {
+    "id" : 8,
+    "image": "/img/components/catalog-main/item-8.png",
+    "alt": "Крышки на столбы",
+    "category": "Крышки на столбы",
+    "title": "Крышки на столбы"
+  }
+  
+]
