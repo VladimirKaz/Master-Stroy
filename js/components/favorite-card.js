@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",()=>{(async()=>{try{var a,r=await fetch("../data/products/favorite-card.json");if(r.ok)return a=await r.json(),Array.isArray||console.warn("Данные не являются массивом!",a),a;throw new Error("HTTP error! status: "+r.status)}catch(a){console.error("Ошибка загрузки JSON:",a)}})().then(a=>{{let i=document.querySelector(".favorites-list");i.innerHTML="",a.forEach(a=>{var r=document.createElement("li");r.classList.add("favorites-list__item"),r.innerHTML=`
+document.addEventListener("DOMContentLoaded",()=>{(async()=>{try{var a,r=await fetch("./data/products/favorite-card.json");if(r.ok)return a=await r.json(),Array.isArray||console.warn("Данные не являются массивом!",a),a;throw new Error("HTTP error! status: "+r.status)}catch(a){console.error("Ошибка загрузки JSON:",a)}})().then(a=>{{let i=document.querySelector(".favorites-list");i.innerHTML="",a.forEach(a=>{var r=document.createElement("li");r.classList.add("favorites-list__item"),r.innerHTML=`
         <article class="favorite-card">
           <!-- Media -->
       <div class="favorite-card__media">
