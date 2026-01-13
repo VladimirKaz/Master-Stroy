@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   async function loadPortfolioData() {
     try {
-      const response = await fetch('../data/products/portfolio.json')
+      const response = await fetch('./data/products/portfolio.json')
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

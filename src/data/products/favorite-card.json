@@ -121,7 +121,7 @@
 
     "btn": 
     {
-      "svg": "/img/components/favorites-list/btn.svg",
+      "svg": "img/components/favorites-list/btn.svg",
       "alt": "Кнопка карточки добавить корзину"
     }
   },
@@ -163,7 +163,7 @@
 
     "btn": 
     {
-      "svg": "/img/components/favorites-list/btn.svg",
+      "svg": "img/components/favorites-list/btn.svg",
       "alt": "Кнопка карточки добавить корзину"
     }
   },
@@ -205,7 +205,7 @@
 
     "btn": 
     {
-      "svg": "/img/components/favorites-list/btn.svg",
+      "svg": "img/components/favorites-list/btn.svg",
       "alt": "Кнопка карточки добавить корзину"
     }
   },
@@ -247,7 +247,7 @@
 
     "btn": 
     {
-      "svg": "/img/components/favorites-list/btn.svg",
+      "svg": "img/components/favorites-list/btn.svg",
       "alt": "Кнопка карточки добавить корзину"
     }
   }
